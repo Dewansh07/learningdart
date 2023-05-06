@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+const age = 25;
 void main() {
   runApp(const MyApp());
 }
