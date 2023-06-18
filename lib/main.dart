@@ -17,8 +17,9 @@ class MyApp extends StatelessWidget {
       //home: Homepage(), ek hi baar dena hai niche routes main de diya toh hatao
       themeMode: ThemeMode.light,
       theme: ThemeData(
-          primarySwatch: Colors.amber,
-          primaryTextTheme: GoogleFonts.latoTextTheme()),
+        primarySwatch: Colors.amber,
+        fontFamily: GoogleFonts.lato().fontFamily,
+      ),
       darkTheme: ThemeData(primarySwatch: Colors.cyan),
       debugShowCheckedModeBanner: false,
       initialRoute: "/",
