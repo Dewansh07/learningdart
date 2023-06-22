@@ -18,12 +18,13 @@ class MyApp extends StatelessWidget {
       //home: Homepage(), ek hi baar dena hai niche routes main de diya toh hatao
       themeMode: ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.amber,
+        primarySwatch: Colors.deepPurple,
         fontFamily: GoogleFonts.lato().fontFamily,
       ),
       darkTheme: ThemeData(primarySwatch: Colors.cyan),
+      debugShowCheckedModeBanner: false,
 
-      initialRoute: "/",
+      initialRoute: MyRoutes.homeroute,
       routes: {
         "/": (context) => const LoginPage(),
         MyRoutes.homeroute: (context) => const Homepage(),
